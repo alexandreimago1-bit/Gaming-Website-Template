@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANGAN // Car Sim News & Asset Hub</title>
+    <link rel="stylesheet" href="tuned.css">
+</head>
+<body>
+
+    <div class="street-wrapper">
+        
+        <aside class="pit-lane">
+            <div class="logo-zone">
+                <span class="neon-glow-text">WANGAN</span>
+                <span class="sub-logo">// CORE NETWORK</span>
+            </div>
+            
+            <ul class="mod-filters">
+                <li class="active" data-game="all">All Logs</li>
+                <li data-game="ac">Assetto Corsa</li>
+                <li data-game="fh">Forza Horizon</li>
+                <li data-game="cx">CarX Drift 1-2</li>
+            </ul>
+
+            <div class="clip-board">
+                <h4>Pinned Telemetry</h4>
+                <div class="pin-counter"><span id="savedCount">0</span> Logs Queued</div>
+                <p>Bookmark patches or mod drops to pin them to your garage dashboard loop.</p>
+            </div>
+        </aside>
+
+        <main class="highway-feed">
+            
+            <header class="dash-panel">
+                <div class="feed-title">
+                    <h2>GARAGE STREAM</h2>
+                    <p>Sub-surface physics patches, engine builds, and asset deliveries.</p>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="feedSearch" placeholder="Filter current telemetry... (e.g. JDM, Tokyo)">
+                </div>
+            </header>
+
+            <section class="hero-spotlight-bay" id="heroSpotlightTarget">
+                </section>
+
+            <div class="stream-divider">
+                <span>LATEST TELEMETRY PIPELINE</span>
+                <div class="line-trim"></div>
+            </div>
+
+            <section class="news-strip-grid" id="newsFeedOutput">
+                </section>
+        </main>
+    </div>
+
+    <script src="engine.js"></script>
+</body>
+</html>

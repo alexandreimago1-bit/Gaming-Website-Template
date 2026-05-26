@@ -5,7 +5,7 @@ const RACING_LOG_DB = [
         title: "Assetto Corsa Custom Physics: Damper Profile Updates",
         summary: "Community test tracks are pushing a new patch integrating custom structural damper formulas and real-time tire wall mutation logic.",
         game: "ac",
-        imgUrl: "PFP/acphy.jpeg", 
+        imgUrl: "acphy.jpeg", 
         timestamp: "12 mins ago",
         likes: 184,
         featured: false
@@ -15,7 +15,7 @@ const RACING_LOG_DB = [
         title: "Forza Horizon Spring Asset Drop // JDM Classics Pack",
         summary: "The expansion playlist hits the garage deck tonight featuring legendary widebody aero sets and retro single-turbo modification packages.",
         game: "fh",
-        imgUrl: "PFP/fhjdm.jpeg", 
+        imgUrl: "fhjdm.jpeg", 
         timestamp: "2 hours ago",
         likes: 312,
         featured: false
@@ -25,7 +25,7 @@ const RACING_LOG_DB = [
         title: "CarX Drift: Tokyo Highway Physics Optimization",
         summary: "The transmission logic update fine-tunes low-gear torque behavior, fixing engine stagnation issues during tight multi-car tandem transitions.",
         game: "cx",
-        imgUrl: "PFP/cxdr.jpeg", 
+        imgUrl: "cxdr.jpeg", 
         timestamp: "5 hours ago",
         likes: 95,
         featured: false
@@ -35,7 +35,7 @@ const RACING_LOG_DB = [
         title: "Wangan Midnight Expressway V3 Arena Drop",
         summary: "Download link is active. Features upscaled high-res texture layout mapping, night illumination arrays, and fully optimized AI traffic pathways.",
         game: "ac",
-        imgUrl: "PFP/wanganmn.jpeg", 
+        imgUrl: "wanganmn.jpeg", 
         timestamp: "1 day ago",
         likes: 420,
         featured: false
@@ -46,7 +46,7 @@ const RACING_LOG_DB = [
         title: "LATE NIGHT LOUNGE: THE EVOLUTION OF HIGHWAY JDM RUNS",
         summary: "An in-depth historical profile exploring how Assetto Corsa communities built a seamless digital underground subculture using authentic asset configurations.",
         game: "ac",
-        imgUrl: "PFP/JDM wallpaper.jpeg", 
+        imgUrl: "JDM wallpaper.jpeg", 
         timestamp: "Featured Telemetry",
         likes: 982,
         featured: true
